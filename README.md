@@ -6,5 +6,5 @@
 ## If user chooses the correct answer, a correct messgae is displayed, if user selects wrong answer, a wrong message is displayed and time taken from the total time left.
 ## Once quiz is finished or timer reaches 0 user can store their score to an external storage and have their score displayed next time they attempt the quiz.
 
-## Link to deployed URL: 
+## Link to deployed URL: https://kammina1.github.io/Code-Quiz/
 
