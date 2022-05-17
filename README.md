@@ -8,3 +8,4 @@
 
 ## Link to deployed URL: https://kammina1.github.io/Code-Quiz/
 
+![cod quiz img](https://user-images.githubusercontent.com/103234272/168715697-ad907fda-d5ac-41b3-9da5-c6719bdfcf89.jpg)
