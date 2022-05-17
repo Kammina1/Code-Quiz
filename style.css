@@ -7,7 +7,9 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
+
 .container{
     width: 800px;
     max-width: 80%;
@@ -35,12 +37,6 @@ body {
 .btn:hover {
     border-color: rgb(32, 185, 223);
 }
-.btn.correct{
-    border-color: green;
-}
-.btn.wrong{
-    border-color: red;
-}
 .start-btn{
     font-size: 24px;
     font-weight: bold;
@@ -52,4 +48,17 @@ body {
 }
 .hide {
     display: none;
+}
+
+#stored-score {
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 0 5px 2px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Code Quiz</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div>
+    <div id="stored-score">Past Score:
+      <p id ="last-score"></p>
+    </div>
     <div class="container">
       <div id="question-container" class="hide">
         <div id="question">Question</div>
         <div id="answer-btns" class="btn-flow">
-          <button class="btn">1</button>
-          <button class="btn">2</button>
-          <button class="btn">3</button>
-          <button class="btn">4</button>
+          <button class="btn" id="btn1" onclick="isCorrect(0)"></button>
+          <button class="btn" id="btn2" onclick="isCorrect(1)"></button>
+          <button class="btn" id="btn3" onclick="isCorrect(2)"></button>
+          <button class="btn" id="btn4" onclick="isCorrect(3)"></button>
         </div>
       </div>
       <div class="controls">
         <button id="start-btn" class="start-btn btn">Start</button>
       </div>
+      <div id="game-over" class="hide">Game Over!
+        <p id="p1"></p>
+        <p>Please enter your initials, followed by your score (i.e: KA - 3/5).
+            <input type="text" id="name-score">
+        </p>
+        <p>If you would like to play again, hit refresh!</p>
+      </div>
     </div>
+    <div id="answer-text" class="hide"></div>
+    <div id="counter-text"></div>
+    
+  </div>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
+
 </html>
